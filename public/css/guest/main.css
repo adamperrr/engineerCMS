@@ -1,0 +1,30 @@
+@import "../subpage-menu.css";
+@import "../bibtexdisplay.css";
+
+.main-container {
+    min-height: 300px;
+    margin: 40px auto;
+}
+
+.main-container img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.page-description {
+    margin: 40px auto;
+}
+
+.subpage-description {
+    margin: 30px auto;
+}
+
+.subpage-content {
+    margin: 30px auto;
+}
+
+.guest-lock {
+    display: inline;
+    font-size: 20px;
+}

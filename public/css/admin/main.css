@@ -1,0 +1,80 @@
+@import "../subpage-menu.css";
+@import "../bibtexdisplay.css";
+
+.admin-panel-delete-form {
+    display:inline;
+}
+
+.admin-panel-page-add-col a {
+    margin-left: 5px;
+}
+
+.admin-panel-page-col a {
+    margin-left: 5px;
+}
+
+.admin-panel-page-col .glyphicon-sort {
+    color: #3097D1;
+    cursor: move;
+}
+
+.admin-panel-subpage-col a {
+    margin-left: 5px;
+}
+
+.admin-panel-subpage-col p {
+    margin-left: 5px;
+}
+
+.admin-panel-subpage-col p .glyphicon-sort{
+    font-size: inherit;
+    margin-right: 5px;
+    cursor: move;
+}
+
+.admin-panel-subpage-add-col a {
+    margin-left: 5px;
+}
+
+.admin-panel-subpage-add-col a:before,
+.admin-panel-subpage-add-col a::before {
+    content: '\2795\a0';
+    font-weight: bold;
+}
+
+.admin-panel-menu-link-row .glyphicon-sort{
+    font-size: inherit;
+    margin-right: 5px;
+    cursor: move;
+}
+
+.page-description {
+    margin: 40px auto;
+}
+
+.subpage-description {
+    margin: 30px auto;
+}
+
+.subpage-content {
+    margin: 30px auto;
+}
+
+.admin-panel-file-add-col a {
+    margin-left: 5px;
+}
+
+input.fileUrlInput {
+    width: 100%;
+    min-width: 60px;
+}
+
+.main-container img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+tr.subpage-add-new-field td{
+    padding-top: 10px;
+}

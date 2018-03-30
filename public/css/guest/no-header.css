@@ -1,0 +1,18 @@
+@import "../subpage-menu.css";
+@import "../bibtexdisplay.css";
+
+.main-container {
+    min-height: 300px;
+    margin: 80px auto 40px auto;
+}
+
+.error-status {
+    text-align: center;
+    color: #777;
+}
+
+.main-container img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}

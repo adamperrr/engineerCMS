@@ -1,0 +1,49 @@
+nav.subpage-menu {
+    margin: 20px 0;
+    color: #007bff;
+}
+
+nav.subpage-menu strong{
+    display: block;
+    color: #007bff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.subpage-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+nav.subpage-menu li[data-title=Menu] {
+
+}
+
+nav.subpage-menu li {
+    float: left;
+}
+
+
+@media (max-width: 550px) {
+    nav.subpage-menu li {
+        float: none;
+    }
+}
+
+nav.subpage-menu li a {
+    display: block;
+    color: #007bff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav.subpage-menu li a:hover {
+    color: #ffffff;
+    background-color: #007bff;
+}

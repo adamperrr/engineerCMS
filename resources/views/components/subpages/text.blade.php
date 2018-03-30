@@ -1,0 +1,1 @@
+<div class="subpage-content">{!! $subpage->content !!}</div>
